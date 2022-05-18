@@ -31,14 +31,17 @@
               <input type="text" class="form-control" id="username" placeholder="enter your username" size="15">
           </div>
             <div class="mb-3 w-auto p-3 style=background-color: #eee;">
+              <i class="bi bi-at"></i>
               <label for="email" class="email">Email</label>
               <input type="email" class="form-control" id="email" placeholder="name@example.com" size="15">
             </div>
             <div class="mb-3 w-auto p-3 style=background-color: #eee;">
+              <i class="bi bi-lock-fill"></i>
               <label for="password" class="password">Password</label>
               <input type="password" class="form-control" id="password" placeholder="enter your password" size="15">
             </div>
             <div class="mb-3 w-auto p-3 style=background-color: #eee;">
+              <i class="bi bi-lock-fill"></i>
               <label for="password" class="password">Confirm Password</label>
               <input type="password" class="form-control" id="password" placeholder="Confirm password">
             </div>
@@ -49,9 +52,12 @@
               Gender :  
               </label><br> <br> 
             
-              <input type="radio" name="male"/> Male  
-              <input type="radio" name="female"/> Female   
-              <input type="radio" name="other"/> Other  
+              <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="Other">Other</label>
+                <input type="radio" id="Other" name="gender" value="Other">  
               <br> <br><br>
           </div>
           <button type="button" class="btnbtn-primarybtn-sm">Submit</button>

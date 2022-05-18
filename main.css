@@ -143,3 +143,12 @@ nav ul a.active{
         right: 100%;
     }
 }
+
+form{
+    border: solid black;
+    border-radius: 20px;
+    max-width: auto;
+    max-height: fit-content;
+    margin: auto;
+       
+}
